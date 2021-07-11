@@ -15,7 +15,7 @@ import acm.graphics.GRoundRect;
 import acm.program.GraphicsProgram;
 
 /**
- * 
+ * Practice application for learning how to code in Java and use git hub
  * @author mustardman13
  *
  */
