@@ -17,7 +17,7 @@ import acm.program.GraphicsProgram;
 /**
  * Practice application for learning how to code in Java and use git hub
  * Let's up to 6 players play yahtzee together ... on the same computer
- * xxx
+ * will gradually add more options.
  * @author mustardman13
  *
  */
