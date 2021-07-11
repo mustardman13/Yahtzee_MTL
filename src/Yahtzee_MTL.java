@@ -16,7 +16,7 @@ import acm.program.GraphicsProgram;
 
 /**
  * Practice application for learning how to code in Java and use git hub
- * Let's up to 6 players play yahtzee together ... on the same computer
+ * Let's up to 6 players play Yahtzee together ... on the same computer
  * will gradually add more options.
  * @author mustardman13
  *
@@ -44,19 +44,19 @@ public class Yahtzee_MTL extends GraphicsProgram {
 
 		// Update the names for the players
 		playerNames[1] = "Michael";
-		playerNames[2] = "Sam";
-//		playerNames[3] = "Riley";
-//		playerNames[4] = "Rebecca";
-//		playerNames[5] = "Jolie";
-//		playerNames[6] = "Sam";
+		playerNames[2] = "Michelle";
+		playerNames[3] = "Riley";
+		playerNames[4] = "Rebecca";
+		playerNames[5] = "Jolie";
+		playerNames[6] = "Sam";
 		
 		// Initialize color schemes for columns
 		playerColorScheme[0] = ColorScheme_Dice.white_Red;
 		playerColorScheme[1] = ColorScheme_Dice.orange_Blue;
-//		playerColorScheme[2] = ColorScheme_Dice.yellow_Black;
-//		playerColorScheme[3] = ColorScheme_Dice.green_Black;
-//		playerColorScheme[4] = ColorScheme_Dice.white_Blue;
-//		playerColorScheme[5] = ColorScheme_Dice.white_Purple;
+		playerColorScheme[2] = ColorScheme_Dice.yellow_Black;
+		playerColorScheme[3] = ColorScheme_Dice.green_Black;
+		playerColorScheme[4] = ColorScheme_Dice.white_Blue;
+		playerColorScheme[5] = ColorScheme_Dice.white_Purple;
 		
 		
 		// Add the status label to the top of the application
@@ -1237,7 +1237,7 @@ private boolean updatePlayerColors (ColorScheme_Dice[] playerColors) {
 		// Score Section Header Label Constants
 		private final static int HEADER_HEIGHT = 35;
 		
-		private final static int N_PLAYERS = 2;
+		private final static int N_PLAYERS = 6;
 		private final static int N_HEADER_ROWS = 1;
 		private final static int N_SECTION_1_SCORES = 6;
 		private final static int N_SECTION_1_PRE_BONUS_SUBTOTAL_ROWS = 1;
