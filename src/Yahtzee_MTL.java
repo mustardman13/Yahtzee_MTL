@@ -14,7 +14,11 @@ import acm.graphics.GPoint;
 import acm.graphics.GRoundRect;
 import acm.program.GraphicsProgram;
 
-
+/**
+ * 
+ * @author mustardman13
+ *
+ */
 public class Yahtzee_MTL extends GraphicsProgram {
 
 	private static final long serialVersionUID = 1L;
